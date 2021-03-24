@@ -13,7 +13,13 @@ $ pip install einsteinify
 
 It may happen that you have a folder with `.c` and `.h` files where some the `#include "*.h"` are **global paths** to respect to the root folder. This module makes them **relative paths** to the root folder.
 
-## Usage
+## Usage (global module)
+
+```sh
+$ einsteinify path/to/root/folder
+```
+
+## Usage (local module)
 
 ```python
 from einsteinify import einsteinify
