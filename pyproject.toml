@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "einsteinify"
-version = "1.0.0"
+version = "1.0.1"
 description = "A package that transforms every C #include absolute path to a given directory to a relative path to the .c or .h file"
 authors = ["Eugenio Berretta <euberdeveloper@gmail.com>"]
 keywords = ["c", ".h", "paths", "includes", "einsteinify", "relative paths"]
