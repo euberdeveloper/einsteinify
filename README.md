@@ -77,6 +77,6 @@ After running **einsteinify** the includes would be:
 **utils.h**
 
 ```c
-#include "./other.h"
+#include "../other.h"
 #include "../services.h"
 ```
